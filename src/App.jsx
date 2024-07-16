@@ -19,6 +19,8 @@ console.log("I pulled and now I push.")
   console.log("why the bicycle cant stand on it own???")
 
 
+  console.log("Watermelon")
+
   return (
     <>
       <h1>My name is {oranges[0]}</h1>
