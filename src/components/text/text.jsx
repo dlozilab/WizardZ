@@ -1,5 +1,8 @@
 
-function Text() {
+function Text({id}) {
+    console.log("This is a prop", id)
+    console.log("This is a array", id)
+    console.log("Where I live", id)
     return(
         <>
         <h1>Working together</h1>

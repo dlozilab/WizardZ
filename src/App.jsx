@@ -7,9 +7,11 @@ import "./App.css";
 function App() {
 const [oranges, setOranges] = useState(["Anne","Tucker"]);
 
-
-
 console.log("I pulled and now I push.")
+
+let learnProp = "Learner";
+let list = [1, 2, 3];
+let location = "PMB";
 
   console.log("Why so serious..........")
   console.log("Phusha")
@@ -24,8 +26,10 @@ console.log("I pulled and now I push.")
 
   return (
     <>
-      <h1>My name is {oranges[0]}</h1>
-      <section><Text/></section>
+      {/* <h1>My name is {oranges[0]}</h1> */}
+      <section id={"learnProp"}><Text/></section>
+      <div id={list}></div>
+      <div id={location}></div>
     </>
   );
 }
