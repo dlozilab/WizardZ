@@ -12,6 +12,8 @@ console.log("I pulled and now I push.")
 
   console.log("Why so serious..........")
   console.log("Phusha")
+  console.log("We are very serious")
+  console.log("Lemon")
 
   return (
     <>
