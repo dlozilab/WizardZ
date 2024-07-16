@@ -1,9 +1,12 @@
-import Logo from '../src/assets/logo.webp'
+import Logo from "../logo/Nike-Logo.png"
 
 const logo =() =>{
 return (
     <>
-    <img src= alt="" />
+    <img src={Logo} alt=""  
+    style={{width:"8%", height:"10%"}}
+    />
+
     </>
 )
 }
