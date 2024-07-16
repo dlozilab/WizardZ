@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import Text from "./components/text/text";
 import "./App.css";
 
 function App() {
@@ -24,6 +25,7 @@ console.log("I pulled and now I push.")
   return (
     <>
       <h1>My name is {oranges[0]}</h1>
+      <Text/>
     </>
   );
 }
