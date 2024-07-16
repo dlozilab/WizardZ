@@ -25,7 +25,7 @@ console.log("I pulled and now I push.")
   return (
     <>
       <h1>My name is {oranges[0]}</h1>
-      <Text/>
+      <section><Text/></section>
     </>
   );
 }
