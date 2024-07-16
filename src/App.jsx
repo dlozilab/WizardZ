@@ -8,7 +8,7 @@ const [oranges, setOranges] = useState(["Anne","Tucker"]);
 
 
 
-console.log("I pulled and now I push.")
+console.log("try again and pull")
 
   return (
     <>
