@@ -14,7 +14,7 @@ console.log("I pulled and now I push.")
   console.log("Phusha")
   console.log("We are very serious")
   console.log("Lemon")
-  console.log("Always git push")
+  console.log("strawberries")
 
   console.log("why the bicycle cant stand on it own??")
 
