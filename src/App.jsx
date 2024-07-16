@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SimpleForm from "./components/form/simpleForm";
 import "./App.css";
+import Footer from "./components/section/footer";
 
 function App() {
 const [oranges, setOranges] = useState(["Anne","Tucker"]);
@@ -23,6 +24,8 @@ console.log("I pulled and now I push.")
   return (
     <>
       <SimpleForm/>
+      <h1>My name is {oranges[0]}</h1>
+      <div><Footer/></div>
     </>
   );
 }
