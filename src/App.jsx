@@ -12,9 +12,8 @@ console.log("I pulled and now I push.")
 
   console.log("Why so serious..........")
   console.log("Phusha")
-  console.log("Banana")
+  console.log("Banana's")
   console.log("Lemon")
-  console.log("Always git push")
 
   return (
     <>
