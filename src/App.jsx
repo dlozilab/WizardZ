@@ -6,7 +6,9 @@ import Logo from './components/logo/logo'
 
 function App() {
 const [oranges, setOranges] = useState(["Anne","Tucker"]);
-
+let name = "sunny"
+let arr = [1, 2, 3]
+let city = "PMB"
 
 
 console.log("I pulled and now I push.")
@@ -26,7 +28,7 @@ console.log("I pulled and now I push.")
     <>
       
 
-      <Logo/>
+      <Logo id={name}  list={arr} location={city}/>
 
     </>
   );
