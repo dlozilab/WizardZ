@@ -13,9 +13,7 @@ console.log("I pulled and now I push.")
   console.log("Why so serious..........")
   console.log("Phusha")
   console.log("We are very serious")
-  console.log("why the bicycle cant stand on it own??")
-
-
+  console.log("Lemon")
   console.log("Always git push")
 
   return (
