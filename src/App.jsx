@@ -10,6 +10,8 @@ const [oranges, setOranges] = useState(["Anne","Tucker"]);
 
 console.log("I pulled and now I push.")
 
+  console.log("Why so serious..........")
+
   return (
     <>
       <h1>My name is {oranges[0]}</h1>
