@@ -11,7 +11,6 @@ const [oranges, setOranges] = useState(["Anne","Tucker"]);
 console.log("I pulled and now I push.")
 
   console.log("Why so serious..........")
-  console.log("Always git push");
   return (
     <>
       <h1>My name is {oranges[0]}</h1>
