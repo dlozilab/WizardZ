@@ -14,6 +14,8 @@ console.log("I pulled and now I push.")
   console.log("We are very serious")
   console.log("Phusha")
 
+  console.log("Watermelon")
+
   return (
     <>
       <h1>My name is {oranges[0]}</h1>
