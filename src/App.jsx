@@ -7,6 +7,8 @@ import Button from "./components/button";
 function App() {
 const [oranges, setOranges] = useState(["Anne","Tucker"]);
 
+let click = "youIn";
+let list =[1,2,3];
 
 
 console.log("I pulled and now I push.")
@@ -18,7 +20,15 @@ console.log("I pulled and now I push.")
   console.log("Always git push")
 
   return (
-    <section> <Button/> </section>
+    <>
+    
+    <section> <Button
+         id={click}
+         list={list}
+
+    /> </section>
+
+    </>
   );
 }
 
