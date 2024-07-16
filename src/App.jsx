@@ -14,6 +14,7 @@ console.log("I pulled and now I push.")
   console.log("Phusha")
   console.log("We are very serious")
   console.log("Lemon")
+  console.log("Always git push")
 
   return (
     <>
