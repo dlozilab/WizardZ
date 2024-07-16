@@ -25,7 +25,7 @@ console.log("I pulled and now I push.")
     <>
       <SimpleForm/>
       <h1>My name is {oranges[0]}</h1>
-      <div><Footer/></div>
+      <section><Footer/></section>
     </>
   );
 }
