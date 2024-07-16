@@ -16,6 +16,9 @@ console.log("I pulled and now I push.")
   console.log("Lemon")
   console.log("Always git push")
 
+  console.log("why the bicycle cant stand on it own??")
+
+
   return (
     <>
       <h1>My name is {oranges[0]}</h1>
