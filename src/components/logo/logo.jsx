@@ -2,10 +2,10 @@
 
 import Logo from "../logo/Nike-Logo.png"
 
-const logo =({id, list, location}) =>{
+const logo =({id, list }) =>{
     console.log("this is my prop " + id)
     console.log("this is my list " + list)
-    console.log("Mlab location " + location)
+   
 
 return (
     <>
@@ -17,4 +17,4 @@ return (
 )
 }
 
-export default logo;
+export default Logo
