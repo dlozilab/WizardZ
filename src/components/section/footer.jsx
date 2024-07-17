@@ -6,7 +6,7 @@ function Footer({id,list,location}){
     return(
         <>
         <div className="footer">
-            {location} a footer
+           <h1> {id} a footer</h1>
         </div>
         
         </>
