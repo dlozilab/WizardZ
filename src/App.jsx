@@ -35,7 +35,9 @@ let location = "PMB";
 
   return (
     <>
-      <h1>My name is {oranges[0]}</h1>
+     <h1 id={profile} list={List}></h1>
+     <Image/>
+     <Text></Text>
     </>
   );
 }
