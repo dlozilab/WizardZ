@@ -32,7 +32,7 @@ let location = "PMB";
 
   return (
     <>
-<<<<<<<<< Temporary merge branch 1
+
      <h1 id={profile} list={List}></h1>
      <Image/>
      <Text></Text>
