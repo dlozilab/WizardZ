@@ -33,9 +33,6 @@ let location = "PMB";
 
   return (
     <>
-     <h1 id={profile} list={List}></h1>
-     <Image/>
-     <Logo id={name}  list={arr} location={city}/>
      <section><Text id={learnProp} list={list} loc={location}/></section>
     </>
   );
