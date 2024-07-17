@@ -7,13 +7,7 @@ import Logo from './components/logo/logo'
 
 function App() {
 const [oranges, setOranges] = useState(["Anne","Tucker"]);
-let name = "sunny"
-let arr = [1, 2, 3]
-let city = "PMB"
 
-
-let  profile = "Show a picture"
-let List = [1,2,3]
 
 
 console.log("I pulled and now I push.")
@@ -26,19 +20,19 @@ let location = "PMB";
   console.log("Phusha")
   console.log("We are very serious")
   console.log("Lemon")
-  console.log("strawberries")
-
-  console.log("why the bicycle cant stand on it own???")
+  console.log("Always git push")
 
   console.log("why the bicycle cant stand on it own??")
-  console.log("branch added")
+
 
   console.log("Watermelon")
-  
-  
+  console.log("anything")
 
   return (
     <>
+     <h1 id={profile} list={List}></h1>
+     <Image/>
+     <Text></Text>
       
 
       <Logo id={name}  list={arr} location={city}/>
