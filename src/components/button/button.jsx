@@ -1,3 +1,4 @@
+// sanele
 function Button({id,list}){
 
   console.log(id)
