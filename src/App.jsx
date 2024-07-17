@@ -27,9 +27,9 @@ let location = "PMB";
   return (
     <>
       {/* <h1>My name is {oranges[0]}</h1> */}
-      <section id={"learnProp"}><Text/></section>
-      <div id={list}></div>
-      <div id={location}></div>
+      <section id={learnProp}><Text/></section>
+      {/* <div id={list}></div>
+      <div id={location}></div> */}
     </>
   );
 }
