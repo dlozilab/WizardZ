@@ -33,7 +33,11 @@ console.log("I pulled and now I push.")
   return (
     <>
      
-      <Image  id={profile}></Image> 
+      <Image  id={profile}
+          list={List}
+      >
+        </Image> 
+        
       
 
       
