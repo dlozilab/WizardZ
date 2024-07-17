@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Image from "./components/image/img";
-
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Text from "./components/text/text";
@@ -33,7 +32,7 @@ let location = "PMB";
 
   return (
     <>
-     <section><Text id={learnProp} list={list} loc={location}/></section>
+     <Text id={learnProp} list={list} loc={location}/>
     </>
   );
 }
