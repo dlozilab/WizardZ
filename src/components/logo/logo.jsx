@@ -1,3 +1,5 @@
+//Thandeka's Comp
+
 import Logo from "../logo/Nike-Logo.png"
 
 const logo =({id, list, location}) =>{
@@ -15,4 +17,4 @@ return (
 )
 }
 
-export default logo
+export default Logo
