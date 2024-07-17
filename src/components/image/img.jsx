@@ -1,6 +1,6 @@
 import Imojie from "../image/imojie.jpg";
 
-
+//nokwanda//
 function Image({id,list}){
 
 

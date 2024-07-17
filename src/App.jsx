@@ -1,5 +1,9 @@
 import { useState } from "react";
-import Logo from "./components/logo/logo"
+import Image from "./components/image/img";
+
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import Text from "./components/text/text";
 import "./App.css";
 
 function App() {
@@ -13,7 +17,9 @@ let arr =[1,2,3]
 
 console.log("I pulled and now I push.")
 
-
+let learnProp = "Learner";
+let list = [1, 2, 3];
+let location = "PMB";
 
 
   console.log("Why so serious..........")
@@ -30,7 +36,7 @@ console.log("I pulled and now I push.")
 
   return (
     <>
-      <Logo id={name} list={arr} />
+      <h1>My name is {oranges[0]}</h1>
      <section><Text id={learnProp} list={list} loc={location}/></section>
     </>
   );
