@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Logo from "./components/logo/logo"
 import "./App.css";
+import Button from "./components/button/button";
 
 function App() {
 const [oranges, setOranges] = useState(["Anne","Tucker"]);
@@ -32,6 +33,7 @@ console.log("I pulled and now I push.")
     <>
       <Logo id={name} list={arr} />
      <section><Text id={learnProp} list={list} loc={location}/></section>
+      
     </>
   );
 }
