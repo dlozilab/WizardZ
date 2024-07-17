@@ -10,9 +10,7 @@ import Logo from './components/logo/logo'
 function App() {
 const [oranges, setOranges] = useState(["Anne","Tucker"]);
 
-
-
-console.log("I pulled and now I push.")
+console.log("I pulled and now I push, Now merge.")
 
 let learnProp = "Learner";
 let list = [1, 2, 3];
