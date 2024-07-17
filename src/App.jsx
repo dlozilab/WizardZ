@@ -6,6 +6,7 @@ import viteLogo from "/vite.svg";
 import Text from "./components/text/text";
 import "./App.css";
 import Logo from './components/logo/logo'
+import Navigation from "./components/navigation/navigation";
 
 
 function App() {
@@ -38,7 +39,7 @@ let location = "PMB";
 
   return (
     <>
-      
+      <Navigation/>
 
       <Logo id={name}  list={arr} location={city}/>
 
