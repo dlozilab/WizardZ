@@ -1,8 +1,5 @@
 import { useState } from "react";
 import Image from "./components/image/img";
-
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import Text from "./components/text/text";
 import "./App.css";
 import Logo from './components/logo/logo'
@@ -50,7 +47,10 @@ let location = "PMB";
       <section id={learnProp}><Text/></section>
       {/* <div id={list}></div>
       <div id={location}></div> */}
-      <h1>My name is {oranges[0]}</h1>
+     
+     <Image/>
+
+      
     </>
   );
 }
