@@ -23,10 +23,9 @@ console.log("I pulled and now I push.")
     <>
     
     <section> <Button
-         id={click}
-         list={list}
-
+         id={click} list={list}
     /> </section>
+
 
     </>
   );

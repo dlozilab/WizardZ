@@ -1,4 +1,4 @@
-function Button({id}){
+function Button({id,list}){
 
   console.log(id)
   console.log(list)
