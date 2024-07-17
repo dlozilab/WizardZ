@@ -33,22 +33,10 @@ let location = "PMB";
 
   return (
     <>
-<<<<<<< HEAD
-      <section><Text id={learnProp} list={list} loc={location}/></section>
-=======
      <h1 id={profile} list={List}></h1>
      <Image/>
-     <Text></Text>
-      
-
-      <Logo id={name}  list={arr} location={city}/>
-
-      {/* <h1>My name is {oranges[0]}</h1> */}
-      <section id={learnProp}><Text/></section>
-      {/* <div id={list}></div>
-      <div id={location}></div> */}
-      <h1>My name is {oranges[0]}</h1>
->>>>>>> refs/remotes/origin/main
+     <Logo id={name}  list={arr} location={city}/>
+     <section> <Text id={learnProp} list={list} loc={location}/></section>
     </>
   );
 }
