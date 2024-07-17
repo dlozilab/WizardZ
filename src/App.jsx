@@ -1,21 +1,19 @@
 import { useState } from "react";
-import Image from "./components/image/img";
-
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import Text from "./components/text/text";
+import Logo from "./components/logo/logo"
 import "./App.css";
 
 function App() {
 const [oranges, setOranges] = useState(["Anne","Tucker"]);
 
+let name = "sunny"
+let arr =[1,2,3]
+
+
 
 
 console.log("I pulled and now I push.")
 
-let learnProp = "Learner";
-let list = [1, 2, 3];
-let location = "PMB";
+
 
 
   console.log("Why so serious..........")
@@ -32,7 +30,7 @@ let location = "PMB";
 
   return (
     <>
-      <h1>My name is {oranges[0]}</h1>
+      <Logo id={name} list={arr} />
     </>
   );
 }
