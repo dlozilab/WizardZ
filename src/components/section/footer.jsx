@@ -1,12 +1,12 @@
 
 
-function Footer({id}){
-    console.log(id, "this is my prop")
-
+function Footer({id,list,location}){
+    console.log("Scooby" ,id, "this is my prop")
+    console.log(list ,"count")
     return(
         <>
         <div className="footer">
-            this is the footer
+            {location} a footer
         </div>
         
         </>
