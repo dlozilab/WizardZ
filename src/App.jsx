@@ -30,6 +30,8 @@ console.log("I pulled and now I push.")
       <p id={list}>props pros</p>
       <p id={pmb}>my locaton {pmb[0]}</p>
       <footer id={scoopy}><Footer/></footer>
+
+    
     </>
   );
 }
