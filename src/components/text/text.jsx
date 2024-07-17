@@ -1,4 +1,4 @@
-
+// Nosihle
 
 function Text({id, list, loc}) {
     console.log("This is a prop " +id )
