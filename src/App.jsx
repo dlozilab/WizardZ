@@ -24,7 +24,7 @@ console.log("I pulled and now I push.")
 
   return (
     <>
-      <i><Social id="what"/></i>
+      <i><Social id={"what"}/></i>
     </>
   );
 }
