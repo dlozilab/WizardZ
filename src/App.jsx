@@ -31,6 +31,7 @@ console.log("I pulled and now I push.")
   return (
     <>
       <Logo id={name} list={arr} />
+     <section><Text id={learnProp} list={list} loc={location}/></section>
     </>
   );
 }

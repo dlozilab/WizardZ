@@ -1,8 +1,9 @@
+// Nosihle
 
-function Text({id}) {
-    console.log("This is a prop",id )
-    // console.log("This is a array", id)
-    // console.log("Where I live", id)
+function Text({id, list, loc}) {
+    console.log("This is a prop " +id )
+    console.log("This is a array " +list)
+    console.log("Where I live " +loc)
     return(
         <>
         <h1>Working together</h1>
