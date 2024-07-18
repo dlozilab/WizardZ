@@ -12,7 +12,7 @@ import Logo from './components/logo/logo'
 function App() {
 const [oranges, setOranges] = useState(["Anne","Tucker"]);
 let scoopy = "Dooo";
-const list = [1,2,3];
+// const lista = [1,2,3];
 const pmb = ["riverside", "indumiso"]
 
 let name = "sunny"
