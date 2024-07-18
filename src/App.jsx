@@ -1,8 +1,13 @@
 import { useState } from "react";
-import Logo from "./components/logo/logo"
+import Image from "./components/image/img";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import Text from "./components/text/text";
 import "./App.css";
 import Button from "./components/button/button";
 import Footer from "./components/section/footer";
+import Logo from './components/logo/logo'
+
 
 function App() {
 const [oranges, setOranges] = useState(["Anne","Tucker"]);
@@ -18,9 +23,11 @@ let arr =[1,2,3]
 
 console.log(list ,"ect")
 console.log("I pulled and now I push.")
+console.log("I pulled and now I push, Now merge.")
 
-
-
+let learnProp = "Learner";
+let list = [1, 2, 3];
+let location = "PMB";
 
   console.log("Why so serious..........")
   console.log("Phusha")
@@ -37,8 +44,7 @@ console.log("I pulled and now I push.")
   return (
     <>
       <Logo id={name} list={arr} />
-     <section><Text id={learnProp} list={list} loc={location}/></section>
-      
+    
       <h1 >My name is {oranges[0]}</h1>
  
 
@@ -47,6 +53,7 @@ console.log("I pulled and now I push.")
       </footer>
 
     
+      <Text id={learnProp} list={list} loc={location}/>
     </>
   );
 }
