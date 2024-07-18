@@ -19,7 +19,7 @@ console.log("I pulled and now I push.")
   console.log("Lemon")
   console.log("Always git push")
 
-  console.log("why the bicycle cant stand on it own??, its too tired")
+  console.log("why the bicycle cant stand on it own??,because its too tired")
   console.log("Watermelon")
 
 
